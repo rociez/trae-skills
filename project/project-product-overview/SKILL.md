@@ -30,9 +30,9 @@ description: "将需求转化为标准化的产品概述文档。在需求澄清
 3.  **结构化输出**：严格按照下方的 [输出模板] 生成文档。
 
 ## 输出模板 (Template)
-1. 检查 `specs/` 目录是否存在，若不存在请自动创建。
-2. 读取 `assets/product-overview-template.md` 作为生成基准。
-3. 填好后保存为 `specs/产品概述.md`。
+1. 检查 `/output` 目录是否存在，若不存在请自动创建
+2. 读取 [product-overview-template.md](https://github.com/rociez/trae-skills/blob/main/template/product-overview-template.md) 作为生成基准
+3. 填好后保存为 `output/产品概述.md`
 
 ---
 
@@ -41,6 +41,6 @@ description: "将需求转化为标准化的产品概述文档。在需求澄清
 - **阶段性输出**：
     - **信息不足时**：仅输出问题列表，不要生成半成品的文档。
     - **信息充足时**：直接输出生成的 Markdown 文档，不要包含过多的开场白。
-- **最终交付**：当文档内容被用户确认后，请将其保存到 `specs/产品概述.md`。
+- **最终交付**：当文档内容被用户确认后，请将其保存到 `output/产品概述.md`。
 - **识别边界**：特别注意用户的非功能性约束（如成本、时间）和项目边界，这些将直接决定技术选型。
 - 确保文档结构清晰，便于后续“技术栈”和“项目结构”的生成。

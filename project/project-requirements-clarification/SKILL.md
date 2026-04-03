@@ -33,8 +33,9 @@ description: "项目启动阶段使用。通过苏格拉底式提问澄清原始
 
 ## 输出格式 (最终总结)
 
-- 当对话结束时，请读取 [requirements-clarification-template.md](https://github.com/rociez/trae-skills/blob/main/template/requirements-clarification-template.md) 作为基准格式输出总结
-- 在目录 /output 中生成一个文件 项目描述.md，用于存储最终的标准化项目描述
+1. 当对话结束时，请读取 [requirements-clarification-template.md](https://github.com/rociez/trae-skills/blob/main/template/requirements-clarification-template.md) 作为基准格式输出总结
+2. 检查 `/output` 目录是否存在，若不存在请自动创建
+3. 填好后保存为 `/output/项目描述.md`
 
 ## 交互准则
 - **像个好奇的合伙人**：不要像个填表机器人。用“这个想法很有趣，但我想知道...”这样的语气。
