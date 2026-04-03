@@ -34,12 +34,12 @@ description: "定义项目目录结构。在技术栈确定后使用，基于技
 3. 填好后保存为 `/output/项目结构.md`
 
 ### 输出数据模型设计
-1. 读取 [[`project-structure-template.md`](https://github.com/rociez/trae-skills/blob/main/template/project-structure-template.md)] 作为生成基准
+1. 读取 [[`data-model-design-template.md`](https://github.com/rociez/trae-skills/blob/main/template/data-model-design-template.md)] 作为生成基准
 2. 检查 `/output` 目录是否存在，若不存在请自动创建
-3. 填好后保存为 `/output/项目结构.md`
+3. 填好后保存为 `/output/数据模型设计.md`
 
 ---
 
 ## 交互准则
 - **适配性**：目录结构必须符合所选技术栈的最佳实践
-- **最终交付**：当文档内容被用户确认后，请将其保存到 `/output/项目结构.md`
+

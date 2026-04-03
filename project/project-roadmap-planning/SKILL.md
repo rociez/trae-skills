@@ -44,14 +44,14 @@ description: "项目开发路线图规划。基于产品概述和模块依赖，
 
 5.  **生成文档**：输出符合模板的 Markdown 文档，**根据检测结果预先勾选已完成的任务**。
 
-6.  **最终交付**：保存到 `specs/开发路线图.md`。
+6.  **最终交付**：保存到 `/output/开发路线图.md`。
 
 ## 输出模板 (Template)
-1. 检查 `specs/` 目录是否存在，若不存在请自动创建。
-2. 读取 `assets/roadmap-planning-template.md` 作为生成基准。
-3. 填好后保存为 `specs/开发路线图.md`。
+1. 检查 `/output/` 目录是否存在，若不存在请自动创建。
+2. 读取 [`roadmap-planning-template.md`](https://github.com/rociez/trae-skills/blob/main/template/roadmap-planning-template.md) 作为生成基准。
+3. 填好后保存为 `/output/开发路线图.md`。
 
 ---
 
 ## 交互准则
-- **最终交付**：当文档内容被用户确认后，请将其保存到 `specs/开发路线图.md`。
+- **最终交付**：当文档内容被用户确认后，请将其保存到 `/output/开发路线图.md`。
