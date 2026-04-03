@@ -9,14 +9,14 @@ description: "制定代码规范和协作流程。在技术栈确定后使用，
 > 你的目标是制定项目的"法律法规"——具体、可执行、无歧义的开发规范。
 
 ## 项目上下文协议 (Project Context Protocol) - CRITICAL
-请严格遵守项目上下文强制协议：[spec/PROJECT-CONTEXT.md](spec/PROJECT-CONTEXT.md)
+请严格遵守项目上下文强制协议：[PROJECT-CONTEXT.md](https://github.com/rociez/trae-skills/blob/main/core/PROJECT-CONTEXT.md)  
 **在执行本 Skill 之前，必须先建立项目认知。**
 
 ## 你的任务
 基于已确定的技术栈，制定**完整的**开发规范。规范必须覆盖模板中的所有章节，每一条规则都必须具体到可以直接执行，不允许模糊描述。
 
 ## 边界守卫 (Guardrails) - CRITICAL
-请严格遵守通用边界守卫规则：[spec/GUARDRAILS.md](spec/GUARDRAILS.md)
+请严格遵守通用边界守卫规则：[GUARDRAILS.md](https://github.com/rociez/trae-skills/blob/main/core/GUARDRAILS.md)  
 **当前阶段**: 架构与设计阶段 (Architecture & Design)
 
 ## 核心原则
@@ -31,9 +31,9 @@ description: "制定代码规范和协作流程。在技术栈确定后使用，
 
 | 文档 | 读取目的 |
 |------|---------|
-| `spec/技术栈选型.md` | 确认核心语言、框架、工具链（决定 Lint 规则、命名风格、包管理器） |
-| `spec/产品概述.md` | 理解业务领域和团队规模（影响分支策略、测试策略的复杂度） |
-| `spec/项目目录结构.md` | 理解模块划分和依赖方向（影响导入规则、组件边界） |
+| [FRONT-END-CODE-STANDARDS.md](https://github.com/rociez/trae-skills/blob/main/core/FRONT-END-CODE-STANDARDS.md) | 确认核心语言、框架、工具链（决定 Lint 规则、命名风格、包管理器） |
+| `/output/产品概述.md` | 理解业务领域和团队规模（影响分支策略、测试策略的复杂度） |
+| `/output/项目目录结构.md` | 理解模块划分和依赖方向（影响导入规则、组件边界） |
 | `spec/API设计规范.md` | 理解数据流模式（Server Actions vs API Routes 的使用场景） |
 | `spec/数据模型设计.md` | 理解实体结构（影响类型定义规范） |
 | `spec/` 下所有已有文档 | 全量扫描，确保不遗漏任何已定义的约束 |

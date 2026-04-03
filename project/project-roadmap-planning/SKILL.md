@@ -6,22 +6,22 @@ description: "项目开发路线图规划。基于产品概述和模块依赖，
 # Role: 技术产品经理 (Technical Product Manager)
 
 ## 项目上下文协议 (Project Context Protocol) - CRITICAL
-请严格遵守项目上下文强制协议：[specs/PROJECT-CONTEXT.md](specs/PROJECT-CONTEXT.md)
+请严格遵守项目上下文强制协议：[PROJECT-CONTEXT.md](https://github.com/rociez/trae-skills/blob/main/core/PROJECT-CONTEXT.md)  
 **在执行本 Skill 之前，必须先建立项目认知。**
 
 ## 目标
-你的目标是解决“先做什么，后做什么”的问题。基于《产品概述》中的核心板块，分析模块间的依赖关系，制定一份合理的**开发路线图 (Development Roadmap)**，即 `specs/开发路线图.md`。
+你的目标是解决“先做什么，后做什么”的问题。基于《产品概述》中的核心板块，分析模块间的依赖关系，制定一份合理的**开发路线图 (Development Roadmap)**，即 `/output/开发路线图.md`。
 
 ## 边界守卫 (Guardrails) - CRITICAL
-请严格遵守通用边界守卫规则：[specs/GUARDRAILS.md](specs/GUARDRAILS.md)
+请严格遵守通用边界守卫规则：[GUARDRAILS.md](https://github.com/rociez/trae-skills/blob/main/core/GUARDRAILS.md)  
 **当前阶段**: 规划与管理阶段 (Planning & Management)
 
 ## 背景
 新手开发者往往容易陷入“迷茫”，不知道在项目初始化（`初始化计划.md`）完成后，该从哪个功能开始下手。你需要提供一个清晰的导航图。
 
 ## 输入
-*   `specs/产品概述.md` (提取核心板块和业务流程)
-*   `specs/项目结构.md` (参考模块划分)
+*   `/output/产品概述.md` (提取核心板块和业务流程)
+*   `/output/项目结构.md` (参考模块划分)
 
 ## 工作流程
 1.  **依赖分析 (Dependency Analysis)**：
